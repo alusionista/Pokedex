@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap");
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  background-color: #52ACFF;
+  background-image: linear-gradient(161deg, #52ACFF 25%, #FFE32C 100%);
+  background-attachment: fixed;
+  margin: 5em 0;
+  padding: 5em 2em;
+  height: 110vh;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Pokemon Solid';
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.03);
+  font-weight: 900;
+  color: #474747;
+}
+
+h2 {
+  font-weight: 700;
+  color: #2468b1;
+}
+
+h3 {
+  font-weight: 600;
+  color: #fccf00;
+  margin-bottom: -10px;
+}
+
+p {
+  color: #2468b1;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  background-color: #f1f1f1;
+  width: auto;
+  border-radius: 10px;
+  padding: 2em;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      grid-template-areas: "a a" "b b" "d c" "e c" "f c" "g c" "h h";
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 1em;
+}
+
+.div1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: a;
+  text-align: center;
+}
+
+.div2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: b;
+  margin-bottom: 1em;
+}
+
+.div3 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  grid-area: c;
+  text-align: center;
+  width: 400px;
+}
+
+.div3 img {
+  width: 100%;
+}
+
+.div4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: d;
+  margin-bottom: 2em;
+}
+
+.div5 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: e;
+  margin: 2em 0;
+}
+
+.div6 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: f;
+  margin: 2em 0;
+}
+
+.div7 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: g;
+}
+
+.div8 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: h;
+  word-wrap: break-word;
+}
+
+.search {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  width: 100%;
+  background: #ffffff;
+  display: inline-block;
+}
+
+.search input[type=text] {
+  border: none;
+  color: #2468b1;
+  padding: 10px 0 10px 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 2em;
+  font-size: 17px;
+}
+
+.search button {
+  border: none;
+  padding: 2%;
+  padding-right: 1em;
+  float: right;
+  color: #2468b1;
+  background-color: #ffffff00;
+  font-size: 1.3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.search button ::after {
+  content: "";
+  clear: both;
+}
+
+.card {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 2rem 4em 2em 2em;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+/*# sourceMappingURL=main.css.map */
